@@ -42,7 +42,6 @@ subprojects {
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
         implementation("io.github.microutils:kotlin-logging-jvm:2.1.20")
         testImplementation("org.springframework.boot:spring-boot-starter-test")
-        testImplementation("org.assertj:assertj-core:3.23.1")
     }
 
     tasks.getByName("bootJar") {
